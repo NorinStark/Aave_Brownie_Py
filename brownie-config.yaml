@@ -1,0 +1,13 @@
+dotenv: .env
+wallets:
+    from_key: ${PRIVATE_KEY}
+
+networks:
+  sepolia:
+    weth_token: '0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa'
+  mainnet-fork: 
+    host: http://127.0.0.1:8545
+    chainid: 1
+    weth_token: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
+    gas_price: "auto"
+    pool_addresses_provider: "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e"
